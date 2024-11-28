@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iTunes-search/static/css/main.70619044.css",
+    "main.js": "/iTunes-search/static/js/main.b23a854b.js",
+    "index.html": "/iTunes-search/index.html",
+    "main.70619044.css.map": "/iTunes-search/static/css/main.70619044.css.map",
+    "main.b23a854b.js.map": "/iTunes-search/static/js/main.b23a854b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70619044.css",
+    "static/js/main.b23a854b.js"
+  ]
+}
