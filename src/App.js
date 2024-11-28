@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { RecoilRoot } from "recoil";
+import SearchComponent from "./Components/SearchComponent";
+import ResultsComponent from "./Components/ResultsComponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RecoilRoot>
+      <div className="max-w-xl mx-auto mt-16 text-center">
+        <h1 className="text-3xl font-bold text-gray-800 mb-6">iTunes Search</h1>
+        <SearchComponent />
+        <ResultsComponent />
+      </div>
+    </RecoilRoot>
   );
-}
+};
 
 export default App;
